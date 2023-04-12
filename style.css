@@ -75,6 +75,11 @@
 .ex-6-img:hover{
     filter: grayscale(100%);
 }
+
+.ex-7-img:hover{
+    filter: sepia(0.85) hue-rotate(180deg);
+    
+}
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;

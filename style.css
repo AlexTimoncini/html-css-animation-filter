@@ -35,7 +35,21 @@
     width: 100px;
     height: 100px;
     background: red;
+    animation: fade-out linear 2s infinite alternate;
 }
+
+@keyframes fade-out {
+    0%{
+        width: 100px;
+        height: 100px;
+    }
+
+    100%{
+        width: 0;
+        height: 0;
+    }
+}
+
 .ex-5-square {
     margin: 20px;
     width: 60px;

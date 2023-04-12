@@ -89,7 +89,15 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: all 1s linear;
 }
+
+.ex-9-img:hover{
+    border-radius: 50px;
+    filter: contrast(2) hue-rotate(45deg);
+    transform: scale(1.2);
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
